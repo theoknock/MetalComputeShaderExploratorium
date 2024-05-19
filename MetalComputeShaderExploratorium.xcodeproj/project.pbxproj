@@ -11,6 +11,8 @@
 		B914667E2BFA99D4005E2E7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B914667D2BFA99D4005E2E7B /* ContentView.swift */; };
 		B91466802BFA99D6005E2E7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B914667F2BFA99D6005E2E7B /* Assets.xcassets */; };
 		B91466832BFA99D6005E2E7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B91466822BFA99D6005E2E7B /* Preview Assets.xcassets */; };
+		B914668A2BFA9A78005E2E7B /* SineWaveShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = B91466892BFA9A78005E2E7B /* SineWaveShader.metal */; };
+		B914668C2BFA9AA4005E2E7B /* MetalSineWaveGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B914668B2BFA9AA4005E2E7B /* MetalSineWaveGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		B914667D2BFA99D4005E2E7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B914667F2BFA99D6005E2E7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B91466822BFA99D6005E2E7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B91466892BFA9A78005E2E7B /* SineWaveShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = SineWaveShader.metal; sourceTree = "<group>"; };
+		B914668B2BFA9AA4005E2E7B /* MetalSineWaveGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalSineWaveGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				B914667B2BFA99D4005E2E7B /* MetalComputeShaderExploratoriumApp.swift */,
 				B914667D2BFA99D4005E2E7B /* ContentView.swift */,
+				B91466892BFA9A78005E2E7B /* SineWaveShader.metal */,
+				B914668B2BFA9AA4005E2E7B /* MetalSineWaveGenerator.swift */,
 				B914667F2BFA99D6005E2E7B /* Assets.xcassets */,
 				B91466812BFA99D6005E2E7B /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B914667E2BFA99D4005E2E7B /* ContentView.swift in Sources */,
+				B914668A2BFA9A78005E2E7B /* SineWaveShader.metal in Sources */,
 				B914667C2BFA99D4005E2E7B /* MetalComputeShaderExploratoriumApp.swift in Sources */,
+				B914668C2BFA9AA4005E2E7B /* MetalSineWaveGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
