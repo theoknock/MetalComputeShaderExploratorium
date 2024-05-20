@@ -22,7 +22,7 @@
 		B914667F2BFA99D6005E2E7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B91466822BFA99D6005E2E7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B91466892BFA9A78005E2E7B /* SineWaveShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = SineWaveShader.metal; sourceTree = "<group>"; };
-		B914668B2BFA9AA4005E2E7B /* MetalSineWaveGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalSineWaveGenerator.swift; sourceTree = "<group>"; };
+		B914668B2BFA9AA4005E2E7B /* MetalSineWaveGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalSineWaveGenerator.swift; sourceTree = "<group>"; wrapsLines = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
