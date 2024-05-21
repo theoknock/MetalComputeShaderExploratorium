@@ -71,8 +71,8 @@ class MetalSineWaveGenerator {
         commandBuffer.waitUntilCompleted()
 
         // Retrieve results
-        let channelLPointer = channelLBuffer.contents().bindMemory(to: Float.self, capacity: arraySize * 2)
-        let channelRPointer = channelRBuffer.contents().bindMemory(to: Float.self, capacity: arraySize * 2)
+        let channelLPointer = channelLBuffer.contents().bindMemory(to: Float.self, capacity: arraySize)
+        let channelRPointer = channelRBuffer.contents().bindMemory(to: Float.self, capacity: arraySize)
         let leftChannel     = Array(UnsafeBufferPointer(start: channelLPointer, count: arraySize))
         let rightChannel    = Array(UnsafeBufferPointer(start: channelRPointer, count: arraySize))
         
